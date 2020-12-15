@@ -24,7 +24,7 @@ keySchemeInit_capslox(){
         ; keyset.press_caps:="keyFunc_esc"
 
     if(!keyset.caps_a)
-        keyset.caps_a:="keyFunc_moveWordLeft"
+        keyset.caps_a:="keyFunc_winTransparent"
     if(!keyset.caps_b)
         keyset.caps_b:="keyFunc_moveDown(10)"
     if(!keyset.caps_c)
@@ -304,7 +304,7 @@ keySchemeInit_capslockPlus(){
         keyset.press_caps:="keyFunc_toggleCapsLock"
 
     if(!keyset.caps_a)
-        keyset.caps_a:="keyFunc_moveWordLeft"
+        keyset.caps_a:="keyFunc_winTransparent"
     if(!keyset.caps_b)
         keyset.caps_b:="keyFunc_moveDown(5)"
     if(!keyset.caps_c)
